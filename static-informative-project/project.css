@@ -1,0 +1,351 @@
+*{box-sizing:border-box;}
+
+.image1, .image2{ width: 450px; height: 400px;}
+.box4{ background-color: brown; 
+    float: left; 
+    margin-left: 3%;}
+.box1{background-color: gray; 
+    margin: auto;
+    font-size: 40px;
+    position: relative;
+    border-radius: 10px;
+    text-align: center;
+     margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 7em;
+    margin-right: 7em;
+    width: 50%;
+    height: 200px;
+    
+    box-shadow: 25px 25px 25px rgb(91 91 91);
+    
+}
+
+.box2{
+ 
+ background-image: linear-gradient( -225deg, #231557 0%, #44107a 29%, #ff1361 67%, #fff800 100%);
+  margin: auto;  
+   /* 
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 130px;*/
+    height: auto;
+    width: auto;
+    background-size: 200% auto;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+
+    -webkit-background-clip: text;
+     animation: textclip 1s linear infinite;
+    font-size: 100px;
+    
+}
+
+.box5{
+
+text-align: center;
+display: inline-block;
+width: 1000px;
+background-color: black;
+color: white;
+position: relative;
+right: 5px;
+border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.imgme1{
+    width: 100%;
+    height: 300px;
+    
+}
+
+
+
+
+.mah3{
+ text-align: center;
+ background-color: yellow;
+ border-radius: 20px;
+ height: 250px;
+ width: 400px;
+ position: absolute;
+ left: 400px;
+ 
+ top: 5px;
+}
+
+.section2{
+    position: relative;
+}
+
+.mah2{
+    background-color: #c0ff13;
+    width: 100%;
+    
+    border-radius: 10px;
+    
+}
+
+.section3{
+    
+    text-align: center;
+}
+.section4{
+    
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.table1{
+    text-emphasis-color: blue;
+    background-color: whitesmoke;
+    color: blue;
+    border-radius: 10px;
+    border: 2%;
+}
+.h1{
+    color: blue;
+}
+
+.h2, .h3, .h4{
+    color: #c0ff13;
+}
+.h1br{
+
+    border-radius: 10px;
+    width: 900px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.imgbr{
+    width: 700px;
+}
+.div1br{
+    background-color: aquamarine;
+}
+
+.img1q{
+    width: 600px;
+    height: 400px;
+}
+.p1q{
+     border-radius: 10px;
+    
+    
+    background-color: black;
+    color: white;
+}
+.h1q{
+    text-align: center;
+    color: blue;
+}
+.h2q{
+    text-align: center;
+    color: blue;
+}
+.h3q{
+    color: blue;
+}
+.p2q{
+    border-radius: 10px;
+    
+    
+    background-color: black;
+    color: white;
+}
+
+.h4q{
+    color: blue;
+}
+
+.p3q{
+    border-radius: 10px;
+    
+    
+    background-color: black;
+    color: white;
+
+}
+.h5q{
+    color:blue;
+}
+.p4q{
+    border-radius: 10px;
+    
+    
+    background-color: black;
+    color: white;
+}
+
+
+
+.pst{
+    border-radius: 10px;
+    
+    
+    background-color: black;
+    color: white;
+}
+
+
+.imgManh{
+    width: 500px;
+    height: 600px;
+}
+.imgBronx{
+    width: 500px;
+    height: 500px;
+}
+
+.imgBrooklyn{
+    width: 500px;
+    height: 600px;
+}
+.imgQuenns{
+    width: 500px;
+    height: 600px;
+}
+
+.imgStaten{
+    width: 500px;
+    height: 600px;
+}
+
+.sectionMan{
+    width: 25%;
+border: 1px;
+position: relative;
+
+}
+.divMan{
+
+    position: absolute;
+    bottom: 27%;
+    left: 15%;
+    right: 0%;
+    width: 450px;
+    background-color:rgb(250, 255, 205);
+    border: ridge 2px whitesmoke;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.sectionBronx{
+    width: 25%;
+    border: 1px;
+    position: relative;
+    
+}
+.divBronx{
+    position: absolute;
+    top: 15%;
+    left: 100px;
+    width: 200px;
+    background-color:rgb(255, 221, 205);
+    border: ridge 2px whitesmoke;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+  .sectionBrook{
+    width: 25%;
+    border: 1px;
+    position: relative;
+   ;
+    
+  } 
+
+  .divBrooklyn{
+    position: absolute;
+    top: 100px;
+    right: 600px;
+    left:0px;
+    width: 400px;
+    background-color:rgb(250, 255, 205);
+    border: ridge 2px whitesmoke;
+    color: white;
+    
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+  }
+
+  .sectionQueen{
+    width: 25%;
+    border: 1px;
+    position: relative;
+    
+  }
+
+  .divQuenns{
+    position: absolute;
+    top: 100px;
+    left: 15%;
+    width: 450px;
+    background-color:rgb(250, 255, 205);
+    border: ridge 2px whitesmoke;
+    color: white;
+    
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  .sectionStaten{
+    width: 25%;
+    border: 1px;
+    position: relative;
+    
+  }
+
+  .divStaten{
+    position: absolute;
+    top: 100px;
+    left: 15%;
+    
+    background-color:rgb(213, 205, 255);
+    border: ridge 2px whitesmoke;
+    color: white;
+    
+    padding: 15px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+  }
+  .imgm1{
+    width: 400px;
+    height: 300px;
+  }
+    
+  
+
+  
+
+
+
+
+
+    
+
+
