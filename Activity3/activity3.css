@@ -1,0 +1,146 @@
+*{box-sizing: border-box;}
+.image1{
+    width: 100%;
+}
+.section1{
+width: 25%;
+border: 1px;
+position: relative;
+
+
+
+}
+
+.paragraph1{
+position: absolute;
+bottom: 27%;
+left: 15%;
+right: 0%;
+width: 220px;
+background-color: rgba(0, 0, 0, 0.724);
+border: ridge 2px whitesmoke;
+color: white;
+text-align: left;
+padding: 15px;
+font-size: 10px;
+
+}
+.section1{filter: invert(100px);
+}
+
+.image2{
+
+    width:100%;
+}
+.image3{
+    width: 200px;
+}
+
+.section2{
+    background-color: blue;
+    width: 25%;
+    border: 1px;
+    position: relative;
+    height: 100%;
+    
+    
+}
+.paragraph2{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    right: 0%;
+    background-color: whitesmoke;
+    border: ridge 1px white; 
+    padding: 1em;
+
+    width: 240px;
+    text-align: left;
+    box-shadow: 0px 0px 2px 5px white;
+    
+    
+    
+    
+    
+}
+.section2{
+    filter: blure(20px);
+}
+.section3{
+    filter: sepia(20px);
+}
+.state1{
+    color: red;
+    font-size: 1em;
+    padding: 5px;
+}
+.state3{
+   text-decoration: none; 
+   background-color: red;
+   color: white;
+   padding: 10px;
+   font-size: 1em;
+   border-radius: 8px;
+}
+
+.image3{
+    width: 100%;
+}
+.section3{
+    background-color: rgb(245, 245, 245);
+    width: 25%;
+    border: 1px;
+    position: relative;
+    display: inline-block;
+}
+.para1{
+    color: white;
+    /*background-color: rgba(0, 0, 0, 0.724);*/
+    position: absolute;
+    top:0.5%;
+    left: 10%;
+    right: 10%;
+    
+    
+}
+.para2{color: white;
+text-align: right;
+position: absolute;
+top:15%;
+
+right: 10%;
+border: 1px;
+width: 150px;
+}
+
+.para3{
+    color: white;
+    margin: auto;
+    position: absolute;
+    top:35%;
+    left:10%;
+    right:10%;
+    text-align: center;
+    padding: 1em;
+    font-size: 1em,2em;
+    
+}
+
+.para4{
+    color: white;
+    position: absolute;
+    bottom:5%;
+    left:12%;
+    width: 300px;
+}
+
+.container{
+    display: inline;
+    background-color: red;
+    
+}
+
+.section1, .section2, .section3{
+    float: left;
+    margin-left: 3%;
+}
