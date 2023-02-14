@@ -1,1 +1,3 @@
-console.log('Thierno- Diallo')
+body{background-color: lightcyan}
+.bgBlue{background-color: aqua;} /* it is not applied yet*/
+.nyc{border: solid red;}
